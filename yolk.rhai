@@ -13,6 +13,12 @@ export let eggs = #{
         targets: "~/.config/nvim",
         templates: [],
         enabled: true
+    },
+
+    tmux: #{
+        targets: "~/.config/tmux",
+        templates: [],
+        enabled: true
     }
 };
 
