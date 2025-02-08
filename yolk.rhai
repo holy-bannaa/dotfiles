@@ -3,7 +3,7 @@ export let data = #{
     cool_setting: if SYSTEM.hostname == "foo" { 10 } else { 25 }
 };
 export let eggs = #{
-    kitty: #{ 
+    kitty: #{
     	targets: "~/.config/kitty",
         templates: [],
         enabled: true
@@ -17,6 +17,14 @@ export let eggs = #{
 
     tmux: #{
         targets: "~/.config/tmux",
+        templates: [],
+        enabled: true
+    },
+
+    zsh: #{
+        targets: #{
+            ".zshrc": "~/.zshrc",
+        },
         templates: [],
         enabled: true
     }
