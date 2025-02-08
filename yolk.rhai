@@ -7,5 +7,12 @@ export let eggs = #{
     	targets: "~/.config/kitty",
         templates: [],
         enabled: true
+    },
+
+    nvim: #{
+        targets: "~/.config/nvim",
+        templates: [],
+        enabled: true
     }
 };
+
