@@ -9,6 +9,11 @@ export let eggs = #{
         enabled: true
     },
 
+    hypr: #{
+        targets: "~/.config/hypr",
+        templates: [],
+        enabled: true
+    },
     nvim: #{
         targets: "~/.config/nvim",
         templates: [],
