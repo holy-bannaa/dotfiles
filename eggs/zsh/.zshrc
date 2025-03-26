@@ -3,14 +3,13 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=/home/bannaa/.local/bin:$PATH
+export PATH=/home/bannaa/.cargo/bin:$PATH
 ZSH_THEME="xiong-chiamiov-plus"
 # ZSH_THEME="jonathan"
 
 plugins=(
     git
     archlinux
-    zsh-autosuggestions
-    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
