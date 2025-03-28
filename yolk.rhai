@@ -10,7 +10,6 @@ export let eggs = #{
         enabled: true
     },
 
-
     fakeHypr: #{
         targets: "~/.config/hypr",
         templates: [],
@@ -39,6 +38,12 @@ export let eggs = #{
         targets: #{
             ".zshrc": "~/.zshrc",
         },
+        templates: [],
+        enabled: true
+    },
+
+    fastfetch: #{
+        targets: "~/.config/fastfetch",
         templates: [],
         enabled: true
     }
