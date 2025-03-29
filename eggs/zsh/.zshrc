@@ -5,7 +5,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 
 plugins=(
 	git
-
+	aliases
 # {% if SYSTEM.hostname == "brent-beterson" %}
 	archlinux
 # {% if SYSTEM.hostname == "gregoryhouse" %}
