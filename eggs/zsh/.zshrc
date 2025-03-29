@@ -4,13 +4,7 @@ export PATH=/home/bannaa/.cargo/bin:$PATH
 ZSH_THEME="xiong-chiamiov-plus"
 
 plugins=(
-	git
 	aliases
-# {% if SYSTEM.hostname == "brent-beterson" %}
-	archlinux
-# {% if SYSTEM.hostname == "gregoryhouse" %}
-	ubuntu
-# {% end %}
 )
 
 source $ZSH/oh-my-zsh.sh
