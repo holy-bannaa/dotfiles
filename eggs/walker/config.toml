@@ -214,8 +214,13 @@ name = "websearch"
 placeholder = "Websearch"
 
 [[builtins.websearch.entries]]
+name = "Startpage"
+url = "https://www.startpage.com/do/dsearch?q=%TERM%"
+
+[[builtins.websearch.entries]]
 name = "Google"
 url = "https://www.google.com/search?q=%TERM%"
+switcher_only = true
 
 [[builtins.websearch.entries]]
 name = "DuckDuckGo"
