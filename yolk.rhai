@@ -9,12 +9,6 @@ export let eggs = #{
         enabled: true
     },
 
-    fakeHypr: #{
-        targets: "~/.config/hypr",
-        templates: [],
-        enabled: true
-    },
-
     nvim: #{
         targets: "~/.config/nvim",
         templates: [],
@@ -46,6 +40,19 @@ export let eggs = #{
         templates: [],
         enabled: true
     },
+
+    fakeHypr: #{
+        targets: "~/.config/hypr",
+        templates: [],
+        enabled: if SYSTEM.username == "bannaa" {true} else {false}
+    },
+
+    hypr: #{
+        targets: "~/.config/hypr",
+        templates: [],
+        enabled: if SYSTEM.username == "testing" {true} else {false}
+    },
+
 
 };
 
