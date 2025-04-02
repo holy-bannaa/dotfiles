@@ -39,6 +39,13 @@ export let eggs = #{
         targets: "~/.config/fastfetch",
         templates: [],
         enabled: true
-    }
+    },
+
+    walker: #{
+        targets: "~/.config/walker",
+        templates: [],
+        enabled: true
+    },
+
 };
 
