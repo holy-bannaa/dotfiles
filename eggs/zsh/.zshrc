@@ -14,6 +14,8 @@ alias reflector='sudo reflector --country Romania --latest 7 --protocol http --p
 alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 alias n='nvim'
 
+alias camera="sudo modprobe v4l2loopback && gphoto2 --stdout autofocusdrive=1 --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video2"
+
 export MANPAGER='nvim +Man!'
 
 # Set-up icons for files/folders in terminal
