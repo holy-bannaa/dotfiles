@@ -1,6 +1,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=/home/bannaa/.local/bin:$PATH
 export PATH=/home/bannaa/.cargo/bin:$PATH
+
+export EDITOR=nvim
+
 ZSH_THEME="xiong-chiamiov-plus"
 
 plugins=(
