@@ -59,5 +59,11 @@ export let eggs = #{
         templates: [],
         enabled: true
     },
+
+    wallust: #{
+        targets: "~/.config/wallust",
+        templates: [],
+        enabled: true
+    }
 };
 
