@@ -2,6 +2,7 @@ export let data = #{
     for_vcs: LOCAL,
     cool_setting: if SYSTEM.hostname == "foo" { 10 } else { 25 }
 };
+
 export let eggs = #{
     kitty: #{
         targets: "~/.config/kitty",
@@ -44,15 +45,19 @@ export let eggs = #{
     fakeHypr: #{
         targets: "~/.config/hypr",
         templates: [],
-        enabled: if SYSTEM.username == "bannaa" {true} else {false}
+        enabled: true
     },
 
     hypr: #{
         targets: "~/.config/hypr",
         templates: [],
-        enabled: if SYSTEM.username == "testing" {true} else {false}
+        enabled: false
     },
 
-
+    waybar: #{
+        targets: "~/.config/waybar",
+        templates: [],
+        enabled: true
+    },
 };
 
