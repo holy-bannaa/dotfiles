@@ -45,13 +45,13 @@ export let eggs = #{
     fakeHypr: #{
         targets: "~/.config/hypr",
         templates: [],
-        enabled: true
+        enabled: false
     },
 
     hypr: #{
         targets: "~/.config/hypr",
         templates: [],
-        enabled: false
+        enabled: true
     },
 
     waybar: #{
