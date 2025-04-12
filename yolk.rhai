@@ -64,6 +64,12 @@ export let eggs = #{
         targets: "~/.config/wallust",
         templates: [],
         enabled: true
-    }
+    },
+
+    kando: #{
+        targets: "~/.config/kando",
+        templates: [],
+        enabled: true
+    },
 };
 
