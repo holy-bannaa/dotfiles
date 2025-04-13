@@ -22,3 +22,5 @@ kitty.target = '~/.config/kitty/kitty-colors.conf'
 cava.template = 'colors-cava'
 cava.target = '~/.config/cava/config'
 
+kando.template = 'colors-kando.json5'
+kando.target = '~/.config/kando/menu-themes/peak/theme.json5'
