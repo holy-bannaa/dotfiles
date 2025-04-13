@@ -2,7 +2,14 @@
   "locale": "auto",
   "menuTheme": "default",
   "darkMenuTheme": "default",
-  "menuThemeColors": {},
+  "menuThemeColors": {
+    "rainbow-labels": {
+      "icon-color": "rgba(51, 51, 51, 1)"
+    },
+    "peak": {
+      "text-color": "rgba(60, 60, 60, 1)"
+    }
+  },
   "darkMenuThemeColors": {},
   "enableDarkModeForMenuThemes": false,
   "soundTheme": "none",

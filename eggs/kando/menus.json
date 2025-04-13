@@ -179,39 +179,38 @@
           },
           {
             "type": "submenu",
-            "name": "Clipboard",
-            "icon": "assignment",
+            "name": "Settings",
+            "icon": "settings",
             "iconTheme": "material-symbols-rounded",
             "children": [
               {
-                "type": "hotkey",
+                "type": "command",
                 "data": {
-                  "hotkey": "ControlLeft+KeyV",
-                  "delayed": true
+                  "command": "nm-connection-editor",
+                  "delayed": false
                 },
-                "name": "Paste",
-                "icon": "content_paste_go",
-                "iconTheme": "material-symbols-rounded",
-                "angle": 90
-              },
-              {
-                "type": "hotkey",
-                "data": {
-                  "hotkey": "ControlLeft+KeyC",
-                  "delayed": true
-                },
-                "name": "Copy",
-                "icon": "content_copy",
+                "name": "Network",
+                "icon": "network_manage",
                 "iconTheme": "material-symbols-rounded"
               },
               {
-                "type": "hotkey",
+                "type": "command",
                 "data": {
-                  "hotkey": "ControlLeft+KeyX",
-                  "delayed": true
+                  "command": "pavucontrol",
+                  "delayed": false
                 },
-                "name": "Cut",
-                "icon": "cut",
+                "name": "Audio",
+                "icon": "headphones",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "blueman-manager",
+                  "delayed": false
+                },
+                "name": "Bluetooth",
+                "icon": "bluetooth",
                 "iconTheme": "material-symbols-rounded"
               }
             ]
@@ -225,7 +224,7 @@
               {
                 "type": "command",
                 "data": {
-                  "command": "~/.config/hypr/scripts/MediaCtrl.sh --nxt",
+                  "command": "~/.config/hypr/scripts/mediaCtrl.sh --nxt",
                   "delayed": false
                 },
                 "name": "Next",
@@ -236,7 +235,7 @@
               {
                 "type": "command",
                 "data": {
-                  "command": "~/.config/hypr/scripts/MediaCtrl.sh --pause",
+                  "command": "~/.config/hypr/scripts/mediaCtrl.sh --pause",
                   "delayed": false
                 },
                 "name": "Play / Pause",
@@ -256,7 +255,7 @@
               {
                 "type": "command",
                 "data": {
-                  "command": "~/.config/hypr/scripts/MediaCtrl.sh --prv",
+                  "command": "~/.config/hypr/scripts/mediaCtrl.sh --prv",
                   "delayed": false
                 },
                 "name": "Previous",
@@ -336,24 +335,6 @@
               {
                 "type": "command",
                 "data": {
-                  "command": "gimp"
-                },
-                "name": "GIMP",
-                "icon": "gimp",
-                "iconTheme": "simple-icons"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "aseprite"
-                },
-                "name": "Aseprite",
-                "icon": "aseprite",
-                "iconTheme": "simple-icons"
-              },
-              {
-                "type": "command",
-                "data": {
                   "command": "firefox"
                 },
                 "name": "Firefox",
@@ -361,13 +342,40 @@
                 "iconTheme": "simple-icons"
               },
               {
-                "type": "command",
-                "data": {
-                  "command": "obsidian"
-                },
-                "name": "Obsidian",
-                "icon": "obsidian",
-                "iconTheme": "simple-icons"
+                "type": "submenu",
+                "data": {},
+                "name": "Art-Stuff",
+                "icon": "aseprite",
+                "iconTheme": "simple-icons",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "aseprite"
+                    },
+                    "name": "Aseprite",
+                    "icon": "aseprite",
+                    "iconTheme": "simple-icons"
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "gimp"
+                    },
+                    "name": "GIMP",
+                    "icon": "gimp",
+                    "iconTheme": "simple-icons"
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "obsidian"
+                    },
+                    "name": "Obsidian",
+                    "icon": "obsidian",
+                    "iconTheme": "simple-icons"
+                  }
+                ]
               },
               {
                 "type": "command",
@@ -376,6 +384,16 @@
                 },
                 "name": "Qbittorrent",
                 "icon": "qbittorrent",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "obs",
+                  "delayed": false
+                },
+                "name": "OBS",
+                "icon": "obsstudio",
                 "iconTheme": "simple-icons"
               },
               {
