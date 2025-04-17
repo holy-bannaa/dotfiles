@@ -17,6 +17,7 @@ source $ZSH/oh-my-zsh.sh
 alias gs="git status"
 alias ga="git add"
 alias gc="git commit -m"
+alias gd="git diff"
 
 alias mo='hyprctl dispatch dpms off'
 alias reflector='sudo reflector --country Romania --latest 7 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
