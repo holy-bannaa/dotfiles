@@ -3,6 +3,7 @@ export PATH=/home/bannaa/.local/bin:$PATH
 export PATH=/home/bannaa/.cargo/bin:$PATH
 
 export EDITOR=nvim
+export MANPAGER='nvim +Man!'
 
 ZSH_THEME="xiong-chiamiov-plus"
 
@@ -12,14 +13,16 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# git
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+
 alias mo='hyprctl dispatch dpms off'
 alias reflector='sudo reflector --country Romania --latest 7 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 alias n='nvim'
-alias next="sudo -u www-data php occ"
 alias camera="sudo modprobe v4l2loopback && gphoto2 --stdout autofocusdrive=1 --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video2"
-
-export MANPAGER='nvim +Man!'
 
 # Set-up icons for files/folders in terminal
 alias ls='eza -a --icons'
