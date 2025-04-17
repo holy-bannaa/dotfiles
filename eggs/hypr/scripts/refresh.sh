@@ -14,7 +14,11 @@ file_exists() {
 }
 
 #Restart waybar
-pkill waybar && waybar
+pkill waybar
+waybar
+
+# refresh kando
+kando --reload-menu-theme
 
 # relaunch swaync
 sleep 0.5
