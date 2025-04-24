@@ -37,7 +37,7 @@ vim.opt.signcolumn = "auto"
 
 -- display whitespace characters using symbols
 vim.opt.list = true
-vim.opt.listchars = { tab = ">>", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "> ", trail = "·", nbsp = "␣" }
 
 -- preview substitutions live, as you type! (I got no idea what this does ngl)
 vim.opt.inccommand = "split"
