@@ -1,7 +1,7 @@
 return {
-	{ "folke/tokyonight.nvim" },
+    { "folke/tokyonight.nvim" },
 
-	{ "ellisonleao/gruvbox.nvim" },
+    { "ellisonleao/gruvbox.nvim" },
 
-	{ "rose-pine/neovim",        name = "rose-pine" },
+    { "rose-pine/neovim",        name = "rose-pine" },
 }
