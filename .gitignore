@@ -8,6 +8,7 @@ eggs/kando/SingletonCookie
 eggs/kando/SingletonLock
 eggs/kando/SingletonSocket
 eggs/kando/menu-themes/peak/theme.json5
+eggs/kando/menus.json
 
 eggs/nvim/lazy-lock.json
 
