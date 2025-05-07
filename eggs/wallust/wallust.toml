@@ -7,7 +7,6 @@ color_space = "labmixed"
 # Uses the colors gathered from color_space in a way that makes sense, resulting in a scheme palette
 palette = "dark16"
 
-
 [templates]
 
 hypr.template = 'colors-hyprland.conf'
@@ -24,3 +23,6 @@ cava.target = '~/.config/cava/config'
 
 kando.template = 'colors-kando.json5'
 kando.target = '~/.config/kando/menu-themes/peak/theme.json5'
+
+rofi.template = 'colors-rofi.rasi'
+rofi.target = '~/.config/rofi/wallust.rasi'
