@@ -21,10 +21,10 @@
   // These colors can be configured by the user and are vailable in the CSS file as CSS
   // variables. The default values are used if the user does not provide any values.
   colors: {
-    'background-color': 'rgb({{background| rgb}})',
-    'text-color': 'rgb({{foreground | rgb}})',
-    'border-color': 'rgb({{color9 | rgb}})',
-    'hover-color': 'rgb({{color12 | rgb}})',
+    'background-color': 'rgb({{color14 | rgb}})',
+    'text-color': 'rgb({{color1 | rgb}})',
+    'border-color': 'rgb({{color12 | rgb}})',
+    'hover-color': 'rgb({{color6 | rgb}})',
   },
 
   // This theme is very simple and only uses one layer for the menu items.
