@@ -34,7 +34,7 @@ menu() {
 
 
 main() {
-    choice=$(menu | rofi -dmenu -config ~/.config/rofi/main.rasi) 
+    choice=$(menu | rofi -dmenu -config ~/.config/rofi/config.rasi) 
 	#choice=$(menu | anyrun --plugins ~/.config/anyrun/plugins/libstdin.so)
 
 	# Trim any potential whitespace or hidden characters
@@ -68,6 +68,8 @@ main
 wallPath=$(grep -v 'Lanczos3' "$HOME/.cache/swww/HDMI-A-1"| head -n 1)
 
 wallust run $wallPath -s
+rm $HOME/.config/rofi/wall
+ln -s $wallPath $HOME/.config/rofi/wall
 
 "$SCRIPTSDIR/refresh.sh"
 

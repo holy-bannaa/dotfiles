@@ -65,5 +65,10 @@ export let eggs = #{
         templates: [],
         enabled: true
     },
-};
 
+    rofi: #{
+        targets: "~/.config/rofi",
+        templates: [],
+        enabled: true
+    },
+};
