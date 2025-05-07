@@ -1,0 +1,24 @@
+@theme "wallust.rasi"
+@theme "theme.rasi"
+
+configuration {
+    modi:                       "drun,run,filebrowser";
+    show-icons:                 true;
+    display-drun:               "  apps";
+    display-run:                "  term";
+    display-filebrowser:        "  files";
+    display-window:             "  window";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+    hover-select:               true;
+    me-select-entry:            "MouseSecondary";
+    me-accept-entry:            "MousePrimary";
+
+    font: "Fira Code SemiBold 15";
+
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+
+}

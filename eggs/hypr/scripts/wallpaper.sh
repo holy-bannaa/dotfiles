@@ -34,7 +34,8 @@ menu() {
 
 
 main() {
-	choice=$(menu | walker -d -n -k)
+    choice=$(menu | rofi -dmenu -config ~/.config/rofi/main.rasi) 
+	#choice=$(menu | anyrun --plugins ~/.config/anyrun/plugins/libstdin.so)
 
 	# Trim any potential whitespace or hidden characters
 	choice=$(echo "$choice" | xargs)
