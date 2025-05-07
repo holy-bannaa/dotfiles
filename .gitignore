@@ -7,3 +7,10 @@ eggs/kando/session
 eggs/kando/SingletonCookie
 eggs/kando/SingletonLock
 eggs/kando/SingletonSocket
+eggs/kando/menu-themes/peak/theme.json5
+
+eggs/nvim/lazy-lock.json
+
+eggs/kitty/kitty-colors.conf
+
+eggs/waybar/wallust/colors-waybar.css
