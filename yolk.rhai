@@ -36,12 +36,6 @@ export let eggs = #{
         enabled: true
     },
 
-    walker: #{
-        targets: "~/.config/walker",
-        templates: [],
-        enabled: true
-    },
-
     fakeHypr: #{
         targets: "~/.config/hypr",
         templates: [],
