@@ -14,10 +14,10 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "Fira Code SemiBold 15";
-    background:                  @color14;
+    background:                  @fore;
     background-alt:              @color11;
     foreground:                  @color1;
-    selected:                    @color6;
+    selected:                    @cursor;
     active:                      #00CCF5;
     urgent:                      #8D0083;
 }
