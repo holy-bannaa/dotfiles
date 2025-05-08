@@ -48,12 +48,6 @@ export let eggs = #{
         enabled: true
     },
 
-    waybar: #{
-        targets: "~/.config/waybar",
-        templates: [],
-        enabled: true
-    },
-
     wallust: #{
         targets: "~/.config/wallust",
         templates: [],
