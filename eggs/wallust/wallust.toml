@@ -23,3 +23,6 @@ kando.target = '~/.config/kando/menu-themes/peak/theme.json5'
 
 rofi.template = 'colors-rofi.rasi'
 rofi.target = '~/.config/rofi/wallust.rasi'
+
+tmux.template = 'colors-tmux.conf'
+tmux.target = '~/.config/tmux/tmux.conf'

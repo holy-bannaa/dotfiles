@@ -18,6 +18,9 @@ kitty --class cava --config ~/.config/kitty/cava.conf cava
 # refresh kando
 kando --reload-menu-theme
 
+# refresh tmux
+tmux source-file ~/.config/tmux/tmux.conf
+
 # relaunch swaync
 sleep 0.5
 swaync > /dev/null 2>&1 &
