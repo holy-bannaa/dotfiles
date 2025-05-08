@@ -14,7 +14,7 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "Fira Code SemiBold 15";
-    background:                  @fore;
+    background:                  @color14;
     background-alt:              @color11;
     foreground:                  @color1;
     selected:                    @cursor;

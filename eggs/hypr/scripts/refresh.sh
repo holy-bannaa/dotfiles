@@ -1,6 +1,4 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
-# Scripts for refreshing ags waybar, rofi, swaync, wallust
 
 SCRIPTSDIR=$HOME/.config/hypr/scripts
 
@@ -13,9 +11,9 @@ file_exists() {
     fi
 }
 
-#Restart waybar
-pkill waybar
-waybar
+# restart cava
+pkill cava
+kitty --class cava --config ~/.config/kitty/cava.conf cava
 
 # refresh kando
 kando --reload-menu-theme
