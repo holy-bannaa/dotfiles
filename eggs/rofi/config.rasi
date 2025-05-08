@@ -15,7 +15,7 @@ configuration {
 * {
     font:                        "Fira Code SemiBold 15";
     background:                  @color14;
-    background-alt:              @color12;
+    background-alt:              @color11;
     foreground:                  @color1;
     selected:                    @color6;
     active:                      #00CCF5;
