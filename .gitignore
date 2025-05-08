@@ -10,8 +10,13 @@ eggs/kando/SingletonSocket
 eggs/kando/menu-themes/peak/theme.json5
 eggs/kando/menus.json
 
+eggs/hypr/wallust/wallust-hyprland.conf
+
 eggs/nvim/lazy-lock.json
 
 eggs/kitty/kitty-colors.conf
 
 eggs/waybar/wallust/colors-waybar.css
+
+eggs/rofi/wallust.rasi
+eggs/rofi/wall
