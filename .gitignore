@@ -22,3 +22,5 @@ eggs/rofi/wallust.rasi
 eggs/rofi/wall
 
 eggs/cava/config
+
+eggs/tmux/tmux.conf
