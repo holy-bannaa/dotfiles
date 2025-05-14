@@ -8,9 +8,10 @@ vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 
 -- indent size
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
 
 -- something to do with files
 vim.cmd("filetype plugin indent on")
@@ -26,7 +27,7 @@ vim.opt.relativenumber = true
 
 -- yank to system clipboard
 vim.schedule(function()
-    vim.opt.clipboard = "unnamedplus"
+	vim.opt.clipboard = "unnamedplus"
 end)
 
 -- break indent
@@ -57,16 +58,26 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 -- highlight when yanking (copying) text
 -- see `:help vim.highlight.on_yank()`
 vim.api.nvim_create_autocmd("TextYankPost", {
-    desc = "Highlight when yanking (copying) text",
-    group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
-    callback = function()
-        vim.highlight.on_yank()
-    end,
+	desc = "Highlight when yanking (copying) text",
+	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+	callback = function()
+		vim.highlight.on_yank()
+	end,
 })
 
 -- treat .rhai files as rust files
 vim.filetype.add({
-    extension = {
-        rhai = "rust",
-    },
+	extension = {
+		rhai = "rust",
+	},
+})
+
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = "yuck",
+	callback = function()
+		vim.opt_local.expandtab = false
+		vim.opt_local.tabstop = 4
+		vim.opt_local.shiftwidth = 4
+		vim.opt_local.softtabstop = 4
+	end,
 })
