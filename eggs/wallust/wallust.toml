@@ -26,3 +26,6 @@ rofi.target = '~/.config/rofi/wallust.rasi'
 
 tmux.template = 'colors-tmux.conf'
 tmux.target = '~/.config/tmux/tmux.conf'
+
+eww.template = "colors-eww.scss"
+eww.target = "~/.config/eww/wallust.scss"
