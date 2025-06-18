@@ -43,3 +43,5 @@ setopt appendhistory
 
 # Added by ProtonUp-Qt on 03-01-2025 00:58:53
 if [ -d "/home/bannaa/stl/prefix" ]; then export PATH="$PATH:/home/bannaa/stl/prefix"; fi
+
+eval "$(zoxide init zsh)"
