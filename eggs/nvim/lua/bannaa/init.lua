@@ -34,7 +34,7 @@ end)
 vim.opt.breakindent = true
 
 -- signcolumn on by default
-vim.opt.signcolumn = "auto"
+vim.opt.signcolumn = "no"
 
 -- display whitespace characters using symbols
 vim.opt.list = true
