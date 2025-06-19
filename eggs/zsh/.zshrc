@@ -2,10 +2,13 @@ export ZSH="$HOME/.oh-my-zsh"
 export PATH=/home/bannaa/.local/bin:$PATH
 export PATH=/home/bannaa/.cargo/bin:$PATH
 
+export XDG_RUNTIME_DIR="/run/user/$UID"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
+
 export EDITOR=nvim
 export MANPAGER='nvim +Man!'
 
-ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="bureau"
 
 plugins=(
 	aliases
