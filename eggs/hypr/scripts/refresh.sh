@@ -12,11 +12,11 @@ file_exists() {
 }
 
 # restart cava
-pkill cava
-kitty --class cava --config ~/.config/kitty/cava.conf cava
+# pkill cava
+# kitty --class cava --config ~/.config/kitty/cava.conf cava
 
 # refresh kando
-kando --reload-menu-theme
+# kando --reload-menu-theme
 
 # refresh tmux
 tmux source-file ~/.config/tmux/tmux.conf
