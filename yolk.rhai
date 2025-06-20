@@ -65,10 +65,10 @@ export let eggs = #{
         templates: [],
         enabled: true
     },
-    
+
     cava: #{
         targets: "~/.config/cava",
         templates: [],
-        rnabled: true
+        enabled: true
     },
 };
